@@ -23,17 +23,10 @@ int main(){
     cout<<"file content is as follows: "<<endl;
 
     while(getline(inputFile,line)){
-        for(int i=0;i<line.size();i++){
-            if(line[i]=='i'){
-                cout<<'i';
-            }else{
-                cout<<'#';
-            }
-        }
-        cout<<endl;
+        cout<<line<<endl;
     }
     inputFile.close();
 
     return 0;
-
+    //changes made by Yash Desai
 }
